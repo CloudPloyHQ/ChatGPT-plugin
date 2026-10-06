@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chatgpt-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
   "author": {
     "name": "CloudPloy",
@@ -19,7 +19,7 @@
         "shortDescription": "Deploy anywhere.",
         "longDescription": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
         "developerName": "CloudPloy",
-        "category": "Developer tools",
+        "category": "Developer Tools",
         "capabilities": ["Deploy anywhere", "AWS, custom VPS, and GCE", "More services coming soon"],
         "websiteURL": "https://cloudploy.com",
         "supportURL": "https://cloudploy.com/contact",
@@ -30,8 +30,8 @@
           "Connect my GitHub account.",
           "Deploy my app."
         ],
-        "brandColor": "#C8F542",
-        "brandColorDark": "#0B0F14",
+        "brandColor": "#7A9A22",
+        "brandColorDark": "#C8F542",
         "composerIcon": "./assets/icon.png",
         "composerIconDark": "./assets/icon-dark.png",
         "logo": "./assets/logo.png",
@@ -96,7 +96,7 @@
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "Deploy anywhere. Current support is AWS, custom VPS, and GCE."
+        "release_notes": "Brand colors meet the directory contrast rules. The category is Developer Tools."
       }
     }
   }
