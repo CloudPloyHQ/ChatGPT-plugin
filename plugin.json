@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chatgpt-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Deploy to any cloud and VPS from your AI agent.",
   "author": {
     "name": "CloudPloy",
@@ -16,7 +16,7 @@
     "com.openai": {
       "interface": {
         "displayName": "CloudPloy",
-        "shortDescription": "Any cloud or VPS from your AI.",
+        "shortDescription": "Deploy your app.",
         "longDescription": "Deploy to any cloud and VPS from your AI agent. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
         "developerName": "CloudPloy",
         "category": "Developer Tools",
@@ -97,7 +97,7 @@
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "The subtitle does not name a provider. The long description still lists current support."
+        "release_notes": "The subtitle is Deploy your app."
       }
     }
   }
