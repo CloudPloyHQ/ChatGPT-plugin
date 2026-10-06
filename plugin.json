@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chatgpt-plugin",
-  "version": "1.0.4",
-  "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
+  "version": "1.0.5",
+  "description": "Deploy to any cloud and VPS from your AI agent.",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",
@@ -16,11 +16,11 @@
     "com.openai": {
       "interface": {
         "displayName": "CloudPloy",
-        "shortDescription": "Deploy anywhere.",
-        "longDescription": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
+        "shortDescription": "Any cloud or VPS from your AI.",
+        "longDescription": "Deploy to any cloud and VPS from your AI agent. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
         "developerName": "CloudPloy",
         "category": "Developer Tools",
-        "capabilities": ["Deploy anywhere", "AWS, custom VPS, and GCE", "More services coming soon"],
+        "capabilities": ["Deploy anywhere", "Any cloud and VPS", "More services coming soon"],
         "websiteURL": "https://cloudploy.com",
         "supportURL": "https://cloudploy.com/contact",
         "privacyPolicyURL": "https://cloudploy.com/privacy",
@@ -97,7 +97,7 @@
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "Adds the review walkthrough. Brand colors meet the contrast rules, and the category is Developer Tools."
+        "release_notes": "The subtitle does not name a provider. The long description still lists current support."
       }
     }
   }
