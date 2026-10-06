@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "chatgpt-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
   "author": {
     "name": "CloudPloy",
@@ -92,11 +92,12 @@
             }
           ]
         },
+        "demo_recording_url": "https://cloudploy.com/videos/cloudploy-chatgpt-review.mp4",
         "commerce": false,
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "Brand colors meet the directory contrast rules. The category is Developer Tools."
+        "release_notes": "Adds the review walkthrough. Brand colors meet the contrast rules, and the category is Developer Tools."
       }
     }
   }
