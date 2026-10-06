@@ -1,4 +1,6 @@
-# CloudPloy/ChatGPT-plugin
+# ChatGPT-plugin
+
+The plugin name is CloudPloy. This repository is [CloudPloyHQ/ChatGPT-plugin](https://github.com/CloudPloyHQ/ChatGPT-plugin).
 
 Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it, from ChatGPT or Codex. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
 
@@ -14,4 +16,4 @@ zip -r dist/ChatGPT-plugin.zip \
 
 Upload that zip in the OpenAI plugin dashboard. Reviewer login stays in the dashboard, not in the zip.
 
-The directory name is `CloudPloy/ChatGPT-plugin`.
+The directory name is `CloudPloy`.
