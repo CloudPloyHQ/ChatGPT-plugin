@@ -2,7 +2,7 @@
 
 The plugin name is CloudPloy. This repository is [CloudPloyHQ/ChatGPT-plugin](https://github.com/CloudPloyHQ/ChatGPT-plugin).
 
-Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it, from ChatGPT or Codex. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
+Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. The agent talks to `https://app.cloudploy.com/mcp`. This repo is the install package. It doesn't run a second server.
 
 Claude uses [CloudPloy/Claude-plugin](https://github.com/CloudPloyHQ/Claude-plugin).
 

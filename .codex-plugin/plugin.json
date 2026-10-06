@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-plugin",
-  "version": "1.0.1",
-  "description": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it.",
+  "version": "1.0.2",
+  "description": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon.",
   "author": {
     "name": "CloudPloy",
     "email": "support@cloudploy.com",
@@ -10,16 +10,16 @@
   "homepage": "https://cloudploy.com/mcp",
   "repository": "https://github.com/CloudPloyHQ/ChatGPT-plugin",
   "license": "MIT",
-  "keywords": ["aws", "google-cloud", "vps", "cloudflare", "deploy"],
+  "keywords": ["aws", "gce", "vps", "deploy"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "CloudPloy",
-    "shortDescription": "Connect AWS, GCP, and a VPS",
-    "longDescription": "Connect AWS, Google Cloud, a VPS, or another cloud account, and put Cloudflare in front of it. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
+    "shortDescription": "Deploy anywhere.",
+    "longDescription": "Deploy anywhere. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
     "developerName": "CloudPloy",
     "category": "Developer tools",
-    "capabilities": ["Connect AWS, Google Cloud, or a VPS", "Put Cloudflare in front", "Deploy an app"],
+    "capabilities": ["Deploy anywhere", "AWS, custom VPS, and GCE", "More services coming soon"],
     "websiteURL": "https://cloudploy.com",
     "supportURL": "https://cloudploy.com/contact",
     "privacyPolicyURL": "https://cloudploy.com/privacy",
@@ -97,7 +97,7 @@
         "commerce_description": "This plugin does not sell products or start a subscription. People sign in to an account they already have."
       },
       "publication": {
-        "release_notes": "The directory name is CloudPloy."
+        "release_notes": "Deploy anywhere. Current support is AWS, custom VPS, and GCE."
       }
     }
   }
