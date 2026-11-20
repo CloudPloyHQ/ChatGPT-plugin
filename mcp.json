@@ -3,7 +3,7 @@
   "mcpServers": {
     "cloudploy": {
       "type": "streamable-http",
-      "url": "https://app.cloudploy.com/mcp"
+      "url": "https://brain.cloudploy.com/mcp"
     }
   }
 }
