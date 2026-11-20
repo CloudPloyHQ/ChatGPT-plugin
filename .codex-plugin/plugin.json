@@ -10,7 +10,7 @@
   "homepage": "https://cloudploy.com/mcp",
   "repository": "https://github.com/CloudPloyHQ/ChatGPT-plugin",
   "license": "MIT",
-  "keywords": ["aws", "gce", "vps", "deploy"],
+  "keywords": ["aws", "vps", "deploy"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
