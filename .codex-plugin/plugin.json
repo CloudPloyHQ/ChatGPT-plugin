@@ -16,7 +16,7 @@
   "interface": {
     "displayName": "CloudPloy",
     "shortDescription": "Deploy your app.",
-    "longDescription": "Deploy to any cloud and VPS from your AI agent. We currently support AWS, custom VPS, and GCE. More services are coming soon. Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
+    "longDescription": "Deploy to any cloud and VPS from your AI agent. We currently support your own AWS account and any server you already run (custom VPS). Sign in to the CloudPloy team you already use. Deletes stay behind an explicit confirmation.",
     "developerName": "CloudPloy",
     "category": "Developer Tools",
     "capabilities": ["Deploy anywhere", "Any cloud and VPS", "More services coming soon"],
